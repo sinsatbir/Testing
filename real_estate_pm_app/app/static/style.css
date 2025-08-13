@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    display: flex; /* Make body a flex container */
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    height: 100vh; /* Full height */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.sidebar h2 {
+    margin-top: 0;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.content {
+    flex-grow: 1; /* Allow content to take up remaining space */
+    padding: 20px;
+    box-sizing: border-box;
+}
